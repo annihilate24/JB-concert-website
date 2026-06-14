@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Justin Bieber World Tour 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/m2.png">
+</head>
+
+<body>
+
+<table width="100%">
+<tr>
+
+<!-- MAIN CONTENT -->
+
+<td width="75%" valign="top">
+
+    <!-- NAVBAR -->
+
+    <table width="100%">
+        <tr>
+
+            <td>
+                <h2>JUSTIN BIEBER</h2>
+            </td>
+
+            <td align="center">
+                <a href="#">Home</a>
+            </td>
+
+            <td align="center">
+                <a href="#about">Biography</a>
+            </td>
+
+            <td align="center">
+                <a href="#events">Events</a>
+            </td>
+
+            <td align="center">
+                <a href="#setlist">Setlist</a>
+            </td>
+
+            <td align="right">
+                <button onclick="buyTicket()">
+                    BUY TICKET
+                </button>
+            </td>
+
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- HERO SECTION -->
+
+    <img src="img/c.png"
+         width="100%"
+         alt="Concert Banner">
+
+    <div class="hero">
+
+        <h1>JUSTICE WORLD TOUR 2026</h1>
+
+        <p>
+            Experience Justin Bieber's biggest hits live with stunning visuals,
+            energetic performances, and unforgettable moments.
+        </p>
+
+        <button onclick="buyTicket()">
+            BUY TICKET
+        </button>
+
+        <button onclick="learnMore()">
+            LEARN MORE
+        </button>
+
+        <br><br>
+
+        <p id="date"></p>
+
+        <h3 id="countdown"></h3>
+
+    </div>
+
+    <br><br>
+
+    <!-- EVENTS -->
+
+    <div id="events">
+
+    <h1>WORLD TOUR 2026</h1>
+
+    <table border="1" width="90%" cellpadding="15">
+
+        <tr>
+            <th>Date</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Venue</th>
+        </tr>
+
+        <tr>
+            <td>10 July 2026</td>
+            <td>Toronto</td>
+            <td>Canada</td>
+            <td>Rogers Centre</td>
+        </tr>
+
+        <tr>
+            <td>17 July 2026</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>Madison Square Garden</td>
+        </tr>
+
+        <tr>
+            <td>24 July 2026</td>
+            <td>Los Angeles</td>
+            <td>USA</td>
+            <td>Crypto.com Arena</td>
+        </tr>
+
+        <tr>
+            <td>31 July 2026</td>
+            <td>London</td>
+            <td>United Kingdom</td>
+            <td>The O2 Arena</td>
+        </tr>
+
+        <tr>
+            <td>07 August 2026</td>
+            <td>Paris</td>
+            <td>France</td>
+            <td>Accor Arena</td>
+        </tr>
+
+        <tr>
+            <td>14 August 2026</td>
+            <td>Berlin</td>
+            <td>Germany</td>
+            <td>Mercedes-Benz Arena</td>
+        </tr>
+
+        <tr>
+            <td>21 August 2026</td>
+            <td>Dubai</td>
+            <td>UAE</td>
+            <td>Coca-Cola Arena</td>
+        </tr>
+
+        <tr>
+            <td>28 August 2026</td>
+            <td>Singapore</td>
+            <td>Singapore</td>
+            <td>National Stadium</td>
+        </tr>
+
+        <tr>
+            <td>04 September 2026</td>
+            <td>Tokyo</td>
+            <td>Japan</td>
+            <td>Tokyo Dome</td>
+        </tr>
+
+        <tr>
+            <td>11 September 2026</td>
+            <td>Sydney</td>
+            <td>Australia</td>
+            <td>Accor Stadium</td>
+        </tr>
+
+    </table>
+
+    </div>
+
+    <br><br>
+
+    <!-- ABOUT -->
+
+    <div id="about">
+
+    <h1>ABOUT THE TOUR</h1>
+
+    <table width="100%">
+
+        <tr>
+
+            <td width="35%">
+
+                <img src="img/m2.png"
+                     width="300"
+                     alt="Justin Bieber">
+
+            </td>
+
+            <td>
+
+                <p>
+                    The Justin Bieber World Tour 2026 is an exciting concert experience
+                    that brings together fans from around the world to celebrate the
+                    music of one of the most influential pop artists of our time.
+                    Featuring stunning stage production, impressive lighting effects,
+                    and unforgettable live performances, the tour showcases Justin
+                    Bieber's greatest hits and fan-favorite songs. Audiences can enjoy
+                    chart-topping tracks such as "Baby," "Sorry," "Love Yourself,"
+                    "Ghost," and "Peaches" performed live in an energetic atmosphere.
+                    The tour travels across major international cities, giving fans
+                    the opportunity to experience world-class entertainment and create
+                    lasting memories. With thousands of fans, incredible visuals,
+                    and high-energy performances, each show is designed to deliver
+                    a unique and unforgettable experience.
+                </p>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    </div>
+
+    <br><br>
+
+    
+
+    <!-- CONTACT -->
+
+    <div id="contact">
+
+    <h1>CONTACT US</h1>
+
+    <form onsubmit="return submitForm()">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name">
+
+        <br><br>
+
+        <textarea
+            id="message"
+            placeholder="Write your message">
+        </textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+    </div>
+
+</td>
+
+<!-- SIDEBAR -->
+
+<td width="25%" valign="top">
+
+    <h2>UPCOMING SHOWS</h2>
+
+    <hr>
+
+    <h3>TORONTO</h3>
+    <p>Rogers Centre</p>
+    <p>10 July 2026</p>
+    <p>$79</p>
+
+    <button onclick="buyTicket()">BUY TICKET</button>
+
+    <hr>
+
+    <h3>NEW YORK</h3>
+    <p>Madison Square Garden</p>
+    <p>17 July 2026</p>
+    <p>$99</p>
+
+    <button onclick="buyTicket()">BUY TICKET</button>
+
+    <hr>
+
+    <h3>LONDON</h3>
+    <p>The O2 Arena</p>
+    <p>31 July 2026</p>
+    <p>£89</p>
+
+    <button onclick="buyTicket()">BUY TICKET</button>
+
+    <hr>
+
+    <h3>TOKYO</h3>
+    <p>Tokyo Dome</p>
+    <p>04 September 2026</p>
+    <p>¥12,000</p>
+
+    <button onclick="buyTicket()">BUY TICKET</button>
+
+    <hr>
+
+    <!-- ALBUMS -->
+
+    <h2>ALBUMS</h2>
+
+    <img src="img/s1.png" width="100%">
+    <p><strong>Justice (2021)</strong></p>
+
+    <br>
+
+    <img src="img/s2.png" width="100%">
+    <p><strong>Purpose (2015)</strong></p>
+
+    <hr>
+
+    <!-- NEWS -->
+
+    <div class="news">
+
+        <h2>NEWS & UPDATES</h2>
+
+        <ul>
+
+            <li>
+                <strong>World Tour 2026 Announced:</strong>
+                Justin Bieber will perform across multiple continents.
+            </li>
+
+            <li>
+                <strong>VIP Packages Available:</strong>
+                Premium seating and exclusive merchandise now available.
+            </li>
+
+            <li>
+                <strong>Additional Shows Added:</strong>
+                London, Paris and Tokyo receive extra dates.
+            </li>
+
+            <li>
+                <strong>Merchandise Launch:</strong>
+                Official tour merchandise now available online.
+            </li>
+
+            <li>
+                <strong>Sold-Out Venues:</strong>
+                Toronto opening show sold out within hours.
+            </li>
+
+        </ul>
+
+    </div>
+
+    <hr>
+
+    <!-- FOLLOW -->
+
+    <div class="follow">
+
+        <h2>FOLLOW JUSTIN BIEBER</h2>
+
+        <p>
+            Stay connected through his official platforms.
+        </p>
+
+        <ul>
+
+            <li>
+                <a href="https://www.youtube.com/@JustinBieber" target="_blank">
+                    YouTube
+                </a>
+            </li>
+
+            <li>
+                <a href="https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s" target="_blank">
+                    Spotify
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/justinbieber/" target="_blank">
+                    Instagram
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/JustinBieber" target="_blank">
+                    Facebook
+                </a>
+            </li>
+
+            <li>
+                <a href="https://x.com/justinbieber" target="_blank">
+                    X (Twitter)
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.justinbiebermusic.com" target="_blank">
+                    Official Website
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</td>
+
+</tr>
+</table>
+
+<hr>
+
+<footer>
+    <p>
+        © 2026 Justin Bieber World Tour Fan Website
+    </p>
+
+    <p>
+        Created for Educational Purposes Only
+    </p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
